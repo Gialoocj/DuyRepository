@@ -14,11 +14,8 @@
         <div class="grid grid-cols-3">
             <div class="flex justify-between mx-2 mt-2">
                 <label for="" class="mr-2">Set Interfaces</label>
-                <select name="upe1Select1" id="upe1-select01" class="border border-black w-7/12 px-2">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                </select>
+                <input type="text" class="border border-black w-7/12 px-2" name="setInterfacesUPE1"
+                    onchange="handleUPE1ChangeInput(event)">
             </div>
             <div class="flex  mx-2 mt-2">flexible-vlan-tagging</div>
             <div class="flex  mx-2 mt-2"></div>
@@ -27,11 +24,8 @@
         <div class="grid grid-cols-3">
             <div class="flex justify-between  mx-2 mt-2">
                 <label for="" class="mr-2">Set Interfaces</label>
-                <select name="upe1Select2" id="upe1-select02" class="border border-black w-7/12 px-2">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                </select>
+                <input type="text" name="setInterfacesUPE2" class="border border-black w-7/12 px-2"
+                    onchange="handleUPE1ChangeInput(event)">
             </div>
             <div class="flex justify-between  mx-2 mt-2">encapsulation flexible ethernet-services</div>
             <div class="flex  mx-2 mt-2"></div>
@@ -40,15 +34,12 @@
         <div class="grid grid-cols-3">
             <div class="flex justify-between  mx-2 mt-2">
                 <label for="" class="mr-2">Set Interfaces</label>
-                <select name="upe1Select3" id="upe1-select03" class="border border-black w-7/12 px-2">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                </select>
+                <input type="text" name="setInterfacesUPE3" id="setInterfacesUPE3"
+                    class="border border-black w-7/12 px-2" onchange="handleUPE1ChangeInput(event)">
             </div>
             <div class="  mx-2 mt-2">
                 <label for="" class="mr-1">Unit</label>
-                <input type="text" class="w-3/12 border border-black px-1" value="" id="upe1Unit1" name="upe1Unit1"
+                <input type="text" class="w-3/12 border border-black px-1" name="upe1Unit1" id="upe1Unit1"
                     onchange="handleUPE1ChangeInput(event)">
             </div>
             <div class="  mx-2 mt-2">
@@ -61,11 +52,8 @@
         <div class="grid grid-cols-3">
             <div class="flex justify-between  mx-2 mt-2">
                 <label for="" class="mr-2">Set Interfaces</label>
-                <select name="upe1Select4" id="upe1-select04" class="border border-black w-7/12 px-2">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                </select>
+                <input type="text" name="setInterfacesUPE4" id="setInterfacesUPE4"
+                    class="border border-black w-7/12 px-2" onchange="handleUPE1ChangeInput(event)">
             </div>
             <div class="  mx-2 mt-2">
                 <label for="" class="mr-1">Unit</label>
@@ -78,11 +66,8 @@
         <div class="grid grid-cols-3">
             <div class="flex justify-between  mx-2 mt-2">
                 <label for="" class="mr-2">Set routing-instances </label>
-                <select name="upe1Select5" id="upe1-select05" class="border border-black w-7/12 px-2">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                </select>
+                <input type="text" name="setRoutingInstances1UPE1" id="setRoutingInstances1UPE1"
+                    onchange="handleUPE1ChangeInput(event)" class="border border-black w-7/12 px-2">
             </div>
             <div class="flex  mx-2 mt-2">instance-type vrf</div>
             <div class="flex  mx-2 mt-2"></div>
@@ -91,11 +76,8 @@
         <div class="grid grid-cols-3">
             <div class="flex justify-between  mx-2 mt-2">
                 <label for="" class="mr-2">Set routing-instances </label>
-                <select name="upe1Select6" id="upe1-select06" class="border border-black w-7/12 px-2">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                </select>
+                <input type="text" name="setRoutingInstances2UPE1" id="setRoutingInstances2UPE1"
+                    onchange="handleUPE1ChangeInput(event)" class="border border-black w-7/12 px-2">
             </div>
             <div class="flex  mx-2 mt-2">
                 <label for="">Interface</label>
@@ -107,11 +89,8 @@
         <div class="grid grid-cols-3">
             <div class="flex justify-between  mx-2 mt-2">
                 <label for="" class="mr-2">Set routing-instances </label>
-                <select name="upe1Select7" id="upe1-select07" class="border border-black w-7/12 px-2">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                </select>
+                <input type="text" name="setRoutingInstances3UPE1" id="setRoutingInstances3UPE1"
+                    onchange="handleUPE1ChangeInput(event)" class="border border-black w-7/12 px-2">
             </div>
             <div class="flex  mx-2 mt-2">route-distinguisher
                 <input type="text" class="w-4/12 border border-black px-1 ml-2" name="upe1Route" id="upe1Route"
@@ -123,14 +102,11 @@
         <div class="grid grid-cols-3">
             <div class="flex justify-between  mx-2 mt-2">
                 <label for="" class="mr-2">Set routing-instances </label>
-                <select name="upe1Select8" id="upe1-select08" class="border border-black w-7/12 px-2">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                </select>
+                <input type="text" name="setRoutingInstances4UPE1" id="setRoutingInstances4UPE1"
+                    onchange="handleUPE1ChangeInput(event)" class="border border-black w-7/12 px-2">
             </div>
             <div class="flex  mx-2 mt-2">vrf-target target
-                <input type="text" class="w-4/12 border border-black px-1 ml-2" name="upe1VRF" id="upe1VRF" value=""
+                <input type="text" class="w-4/12 border border-black px-1 ml-2" name="upe1VRF" id="upe1VRF"
                     onchange="handleUPE1ChangeInput(event)">
             </div>
             <div class="flex  mx-2 mt-2"></div>
@@ -139,11 +115,8 @@
         <div class="grid grid-cols-3">
             <div class="flex justify-between  mx-2 mt-2">
                 <label for="" class="mr-2">Set routing-instances </label>
-                <select name="" id="" class="border border-black w-7/12 px-2">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                </select>
+                <input type="text" name="setRoutingInstances5UPE1" id="setRoutingInstances5UPE1"
+                    onchange="handleUPE1ChangeInput(event)" class="border border-black w-7/12 px-2">
             </div>
             <div class="flex  mx-2 mt-2">vrf-table-label</div>
             <div class="flex  mx-2 mt-2"></div>
@@ -155,11 +128,8 @@
         <div class="grid grid-cols-3">
             <div class="flex justify-between mx-2 mt-2">
                 <label for="" class="mr-2">Set Interfaces</label>
-                <select name="upe3Select1" id="upe3-select01" class="border border-black w-7/12 px-2">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                </select>
+                <input type="text" class="border border-black w-7/12 px-2" name="setInterfaces1UPE3"
+                    id="setInterfaces1UPE3" onchange="handleUPE3ChangeInput(event)">
             </div>
             <div class="flex  mx-2 mt-2">flexible-vlan-tagging</div>
             <div class="flex  mx-2 mt-2"></div>
@@ -168,11 +138,8 @@
         <div class="grid grid-cols-3">
             <div class="flex justify-between  mx-2 mt-2">
                 <label for="" class="mr-2">Set Interfaces</label>
-                <select name="upe3Select2" id="upe3-select02" class="border border-black w-7/12 px-2">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                </select>
+                <input type="text" name="setInterfaces2UPE3" id="setInterfaces2UPE3"
+                    class="border border-black w-7/12 px-2" onchange="handleUPE3ChangeInput(event)">
             </div>
             <div class="flex justify-between  mx-2 mt-2">encapsulation flexible ethernet-services</div>
             <div class="flex  mx-2 mt-2"></div>
@@ -181,11 +148,8 @@
         <div class="grid grid-cols-3">
             <div class="flex justify-between  mx-2 mt-2">
                 <label for="" class="mr-2">Set Interfaces</label>
-                <select name="upe3Select3" id="upe3-select03" class="border border-black w-7/12 px-2">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                </select>
+                <input type="text" name="setInterfaces3UPE3" id="setInterfaces3UPE3"
+                    class="border border-black w-7/12 px-2" onchange="handleUPE3ChangeInput(event)">
             </div>
             <div class="  mx-2 mt-2">
                 <label for="" class="mr-1">Unit</label>
@@ -202,11 +166,8 @@
         <div class="grid grid-cols-3">
             <div class="flex justify-between  mx-2 mt-2">
                 <label for="" class="mr-2">Set Interfaces</label>
-                <select name="upe3Select4" id="upe3-select04" class="border border-black w-7/12 px-2">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                </select>
+                <input type="text" name="setInterfaces4UPE3" id="setInterfaces4UPE3"
+                    class="border border-black w-7/12 px-2" onchange="handleUPE3ChangeInput(event)">
             </div>
             <div class="  mx-2 mt-2">
                 <label for="" class="mr-1">Unit</label>
@@ -219,11 +180,8 @@
         <div class="grid grid-cols-3">
             <div class="flex justify-between  mx-2 mt-2">
                 <label for="" class="mr-2">Set routing-instances </label>
-                <select name="upe3Select5" id="upe3-select05" class="border border-black w-7/12 px-2">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                </select>
+                <input type="text" name="setRoutingInstances1UPE3" id="setRoutingInstances1UPE3"
+                    onchange="handleUPE3ChangeInput(event)" class="border border-black w-7/12 px-2">
             </div>
             <div class="flex  mx-2 mt-2">instance-type vrf</div>
             <div class="flex  mx-2 mt-2"></div>
@@ -232,11 +190,8 @@
         <div class="grid grid-cols-3">
             <div class="flex justify-between  mx-2 mt-2">
                 <label for="" class="mr-2">Set routing-instances </label>
-                <select name="upe3Select6" id="upe3-select06" class="border border-black w-7/12 px-2">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                </select>
+                <input type="text" name="setRoutingInstances2UPE3" id="setRoutingInstances2UPE3"
+                    onchange="handleUPE3ChangeInput(event)" class="border border-black w-7/12 px-2">
             </div>
             <div class="flex  mx-2 mt-2">
                 <label for="">Interface</label>
@@ -248,11 +203,8 @@
         <div class="grid grid-cols-3">
             <div class="flex justify-between  mx-2 mt-2">
                 <label for="" class="mr-2">Set routing-instances </label>
-                <select name="upe3Select7" id="upe3-select07" class="border border-black w-7/12 px-2">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                </select>
+                <input type="text" name="setRoutingInstances3UPE3" id="setRoutingInstances3UPE3"
+                    onchange="handleUPE3ChangeInput(event)" class="border border-black w-7/12 px-2">
             </div>
             <div class="flex  mx-2 mt-2">route-distinguisher
                 <input type="text" class="w-4/12 border border-black px-1 ml-2" name="upe3Route" id="upe3Route"
@@ -264,11 +216,8 @@
         <div class="grid grid-cols-3">
             <div class="flex justify-between  mx-2 mt-2">
                 <label for="" class="mr-2">Set routing-instances </label>
-                <select name="upe3Select8" id="upe3-select08" class="border border-black w-7/12 px-2">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                </select>
+                <input type="text" name="setRoutingInstances4UPE3" id="setRoutingInstances4UPE3"
+                    onchange="handleUPE3ChangeInput(event)" class="border border-black w-7/12 px-2">
             </div>
             <div class="flex  mx-2 mt-2">vrf-target target
                 <input type="text" class="w-4/12 border border-black px-1 ml-2" name="upe3VRF" id="upe3VRF"
@@ -280,32 +229,27 @@
         <div class="grid grid-cols-3">
             <div class="flex justify-between  mx-2 mt-2">
                 <label for="" class="mr-2">Set routing-instances </label>
-                <select name="" id="" class="border border-black w-7/12 px-2">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                </select>
+                <input type="text" name="setRoutingInstances5UPE3" id="setRoutingInstances5UPE3"
+                    onchange="handleUPE3ChangeInput(event)" class="border border-black w-7/12 px-2">
             </div>
             <div class="flex  mx-2 mt-2">vrf-table-label</div>
             <div class="flex  mx-2 mt-2"></div>
         </div>
     </div>
 
-    <div class="mx-auto w-5/12">
-        <button
-            class="w-[240px] hover:bg-blue-600 hover:cursor-pointer py-2 bg-blue-500 font-semibold text-white rounded mt-4 mx-auto mb-2"
-            onclick="handleOnClickDownload()">Tải
+    <div class="flex justify-center items-center">
+        <button type="button" onclick="handleOnClickDownload()"
+            class="w-[180px] h-[40px] bg-blue-600 hover:bg-blue-700 rounded-md text-white my-2">Tải
             xuống</button>
-
-        <button
-            class="w-[240px] hover:bg-green-600 hover:cursor-pointer py-2 bg-green-500 font-semibold text-white rounded mt-4 mx-auto mb-2"
-            onclick="handleOnClickRefresh()">Tạo mới</button>
+        <button onclick="handleOnClickRefresh()"
+            class="w-[180px] h-[40px] mx-2 bg-green-500 hover:bg-green-600 text-white rounded-md">Refresh</button>
     </div>
 
     <script>
         function handleUPE1ChangeInput(event) {
             const { name, value } = event.target;
             upe1[name] = value;
+            console.log(upe1);
         }
 
         function handleUPE3ChangeInput(event) {
@@ -313,47 +257,48 @@
             upe3[name] = value;
         }
 
-
-
         const upe1 = {
-            //upe1Select1: '',
-            //upe1Select2: '',
-            //upe1Select3: '',
+            setInterfacesUPE1: '',
+            setInterfacesUPE2: '',
+            setInterfacesUPE3: '',
+            setInterfacesUPE4: '',
+            setRoutingInstances1UPE1: '',
+            setRoutingInstances2UPE1: '',
+            setRoutingInstances3UPE1: '',
+            setRoutingInstances4UPE1: '',
+            setRoutingInstances5UPE1: '',
             upe1Unit1: '',
             upe1Vlan: '',
-            //upe1Select4: '',
             upe1Unit2: '',
-            //upe1Select5: '',
-            //upe1Select6: '',
             upe1Interface: '',
-            //upe1Select7: '',
             upe1Route: '',
-            //upe1Select8: '',
             upe1VRF: ''
         };
 
         const upe3 = {
-            //upe3Select1: '',
-            //upe3Select2: '',
-            //upe3Select3: '',
+            setInterfaces1UPE3: '',
+            setInterfaces2UPE3: '',
+            setInterfaces3UPE3: '',
+            setInterfaces4UPE3: '',
+            setRoutingInstances1UPE3: '',
+            setRoutingInstances2UPE3: '',
+            setRoutingInstances3UPE3: '',
+            setRoutingInstances4UPE3: '',
+            setRoutingInstances5UPE3: '',
             upe3Unit1: '',
             upe3Vlan: '',
-            //upe3Select4: '',
             upe3Unit2: '',
-            //upe3Select5: '',
-            //upe3Select6: '',
             upe3Interface: '',
-            //upe3Select7: '',
             upe3Route: '',
-            //upe3Select8: '',
             upe3VRF: ''
         };
 
         function handleOnClickDownload() {
-            console.log(upe1, upe3);
             const allFieldsFilledUPE1 = Object.values(upe1).every(value => value.trim() !== '');
             const allFieldsFilledUPE3 = Object.values(upe3).every(value => value.trim() !== '');
-            if (!allFieldsFilledUPE1 || !allFieldsFilledUPE3) {
+            console.log(upe1);
+
+            if (!allFieldsFilledUPE1 && !allFieldsFilledUPE3) {
                 alert('Vui lòng điền đầy đủ thông tin trước khi tải xuống.');
                 return;
             }
@@ -378,19 +323,8 @@
 
 
         function handleOnClickRefresh() {
-            document.getElementById("upe1Unit1").value = '';
-            document.getElementById('upe1Vlan').value = '';
-            document.getElementById('upe1Unit2').value = '';
-            document.getElementById('upe1Interface').value = '';
-            document.getElementById('upe1VRF').value = '';
-            document.getElementById('upe1Route').value = '';
-
-            document.getElementById("upe3Unit1").value = '';
-            document.getElementById('upe3Vlan').value = '';
-            document.getElementById('upe3Unit2').value = '';
-            document.getElementById('upe3Interface').value = '';
-            document.getElementById('upe3Route').value = '';
-            document.getElementById('upe3VRF').value = '';
+            const fields = document.querySelectorAll('input[type="text"]');
+            fields.forEach(field => field.value = '');
         }
     </script>
 </body>
